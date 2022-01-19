@@ -19,7 +19,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 250px;
-    /* background-image: url("./images/new.jpg"); */
+    background-image: url("./images/arrière-plan.png");
     min-height: 400px;
     background-position: fixed;
     position: relative;
