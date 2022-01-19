@@ -1,70 +1,69 @@
 <!DOCTYPE html>
-<html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="./styles.css" media="all" type="text/css">
         <title>Étude Comparative Nicolas Ineksiak</title>
     </head>
     <body>
-            <div>
+            <div class="fond" name="top">
                 <h1>Étude comparative de 5 IDEs</h1>
-                <ul>
-                    <li>Visual Studio Code</li>
-                    <li>IntelliJ IDEA</li>
-                    <li>Eclipse</li>
-                    <li>Netbeans</li>
-                    <li>PyCharm</li>
-                    <li>Tableau Récapitulatif</li>
+                <ul class="menu">
+                    <li><a href="#vscode">Visual Studio Code</a></li>
+                    <li><a href="#intellij">IntelliJ IDEA</a></li>
+                    <li><a href="#eclipse">Eclipse</a></li>
+                    <li><a href="#netbeans">Netbeans</a></li>
+                    <li><a href="#pycharm">PyCharm</a></li>
+                    <li id="recap"><a href="#tableau">Tableau Récapitulatif</a></li>
                 </ul>
-            </div> 
-            <div class="tête">
-                <h2>Visual Studio Code</img></h2>
-                </div>
             </div>
-            <ul >
-                <li>Accessibilité</li>
-                    <ul>
-                        <li>Édition de base (<i>Community Edition</i>) disponible sans frais (<i>open source</i>)</li>
-                        <li>Édition complète offrant toutes les caractéristiques du logiciel ceoendant un peu coûteuse</li>
-                        <li>Depuis 2019, disponible en 14 langues officielles</li>
-                    </ul>
-                <li>Richesse Fonctionnelle</li>
-                    <ul>
-                        <li>Offre le service <a href="https://code.visualstudio.com/learn/collaboration/live-share" target="_blank"><i>Live Share</i></a> qui permet aux développeurs de travailler à distance sur un même projet</li>
-                        <li>Intégration facile avec <i>Git</i></li>
-                    </ul>
-                <li>Capacités de l'Éditeur</li>
-                    <ul>
-                        <li>Puissant éditeur muni des fonctionnalités <a href="https://code.visualstudio.com/docs/editor/intellisense" target="_blank"><i>IntelliSense</i></a> et <a href="https://docs.microsoft.com/en-us/visualstudio/intellicode/intellicode-visual-studio-code" target="_blank"><i>IntelliCode</i></a>, avec complétion intuitive de code
-                        <li>Modèles (<i>templates</i>) disponibles, utiles pour les nouveaux programmeurs</li>
-                        <li>L'extension <a href="https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser" target="_blank"><i>Live Server</i></a> s'avère pratique pour modifier le code et voir le résultat en temps réel</li>
-                    </ul>
-                <li>Possibilité d'ajouter des Plug-ins</li>
-                    <ul>
-                        <li>Multitude de plug-ins disponibles, disponibles sur le <a href="https://marketplace.visualstudio.com/vscode" target="_blank"><i>Visual Studio Marketplace</i></a></li>
-                    </ul>
-                <li>Langages de Programmation supportés</li>
-                    <ul>
-                        <li>36 langages de programmation, incluant C#, C++, F#, JavaScript, Python, TypeScript, PHP, Visual Basic, XAML</li>
-                        <li>Requiert une configuration supplémentaire pour le langage Java</li>
-                    </ul>
-                <li>Capacités du Débogueur</li>
-                    <ul>
-                        <li>Peut être déclenché lorsqu'une application en marche à l'extérieur de l'environnement encourt des problèmes</li>
-                        <li>Permet de créer des points de rupture (<i>breakpoints</i>) utiles pour rechercher une variable ou condition problématique avec le code</li>
-                    </ul>
-                <li>Présence de Frameworks de Tests</li>
-                    <ul>
-                        <li>Pour .NET, <a href="https://devblogs.microsoft.com/visualstudio/intellitest-for-net-test-more-with-less-effort/" target="_blank"><i>Intellitest</i></a> peut générer des tests unitaires. Une analyse de cas est effectuée pour chaque branche du code</li>
-                        <li>Accès à une robuste plateforme de tests grâce aux multiples plug-ins</li>
-                    </ul>
-                <li>Développement Web</li>
-                    <ul>
-                        <li>Élu meilleur IDE pour JavaScript par <a href="https://tms-outsource.com" target="_blank"><i>TMS Outsource</i></a> et voté le plus populaire par <a href="https://stateofjs.com" target="_blank"><i>State Of JS</i></a> dans un sondage de 2018</li>
-                        <li>Efficace pour les applications Web et Cloud. Se connecte aisément aux bases de données</li>
-                    </ul>
-            </ul>
-            <div>
-                <a href="https://code.visualstudio.com/download" target="_blank">Cliquez ici pour télécharger Visual Studio Code!</a>
-            </div>            
+        <div class="tête">
+            <h2>Visual Studio Code</h2>
+        </div class="infos">
+        <ul class="description">
+            <li><a href="#accessibilité">Accessibilité</a></li>
+                <ul>
+                    <li>Édition de base (<i>Community Edition</i>) disponible sans frais (<i>open source</i>)</li>
+                    <li>Édition complète offrant toutes les caractéristiques du logiciel ceoendant un peu coûteuse</li>
+                    <li>Depuis 2019, disponible en 14 langues officielles</li>
+                </ul>
+            <li><a href="#richesse">Richesse Fonctionnelle</a></li>
+                <ul>
+                    <li>Offre le service <a href="https://code.visualstudio.com/learn/collaboration/live-share" target="_blank"><i>Live Share</i></a> qui permet aux développeurs de travailler à distance sur un même projet</li>
+                    <li>Intégration facile avec <i>Git</i></li>
+                </ul>
+            <li><a href="#capacités">Capacités de l'Éditeur</a></li>
+                <ul>
+                    <li>Puissant éditeur muni des fonctionnalités <a href="https://code.visualstudio.com/docs/editor/intellisense" target="_blank"><i>IntelliSense</i></a> et <a href="https://docs.microsoft.com/en-us/visualstudio/intellicode/intellicode-visual-studio-code" target="_blank"><i>IntelliCode</i></a>, avec complétion intuitive de code
+                    <li>Modèles (<i>templates</i>) disponibles, utiles pour les nouveaux programmeurs</li>
+                    <li>L'extension <a href="https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser" target="_blank"><i>Live Server</i></a> s'avère pratique pour modifier le code et voir le résultat en temps réel</li>
+                </ul>
+            <li><a href="#plugins">Possibilité d'ajouter des Plug-ins</a></li>
+                <ul>
+                    <li>Multitude de plug-ins disponibles, disponibles sur le <a href="https://marketplace.visualstudio.com/vscode" target="_blank"><i>Visual Studio Marketplace</i></a></li>
+                </ul>
+            <li><a href="#langages">Langages de Programmation supportés</a></li>
+                <ul>
+                    <li>36 langages de programmation, incluant C#, C++, F#, JavaScript, Python, TypeScript, PHP, Visual Basic, XAML</li>
+                    <li>Requiert une configuration supplémentaire pour le langage Java</li>
+                </ul>
+            <li><a href="#débogueur">Capacités du Débogueur</a></li>
+                <ul>
+                    <li>Peut être déclenché lorsqu'une application en marche à l'extérieur de l'environnement encourt des problèmes</li>
+                    <li>Permet de créer des points de rupture (<i>breakpoints</i>) utiles pour rechercher une variable ou condition problématique avec le code</li>
+                </ul>
+            <li><a href="#frameworks">Présence de Frameworks de Tests</a></li>
+                <ul>
+                    <li>Pour .NET, <a href="https://devblogs.microsoft.com/visualstudio/intellitest-for-net-test-more-with-less-effort/" target="_blank"><i>Intellitest</i></a> peut générer des tests unitaires. Une analyse de cas est effectuée pour chaque branche du code</li>
+                    <li>Accès à une robuste plateforme de tests grâce aux multiples plug-ins</li>
+                </ul>
+            <li><a href="#web">Développement Web</a></li>
+                <ul>
+                    <li>Élu meilleur IDE pour JavaScript par <a href="https://tms-outsource.com" target="_blank"><i>TMS Outsource</i></a> et voté le plus populaire par <a href="https://stateofjs.com" target="_blank"><i>State Of JS</i></a> dans un sondage de 2018</li>
+                    <li>Efficace pour les applications Web et Cloud. Se connecte aisément aux bases de données</li>
+                </ul>
+        </ul>
+        <div class="link">
+            <a href="https://code.visualstudio.com/download" target="_blank">Cliquez ici pour télécharger Visual Studio Code!</a>
+        </div>           
     </body>
 </html>
